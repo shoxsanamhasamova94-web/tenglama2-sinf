@@ -1,0 +1,106 @@
+{
+  "app": {
+    "title": "Tenglamalar",
+    "subtitle": "2-sinf matematika darsi",
+    "heroKicker": "Kichik matematiklar uchun interaktiv dars"
+  },
+  "nav": {
+    "intro": "1. Kirish",
+    "attendance": "2. Davomat",
+    "review": "3. Takrorlash",
+    "newTopic": "4. Yangi mavzu",
+    "practice": "5. Mashq & O'yin",
+    "quiz": "6. Test",
+    "assessment": "7. Baholash",
+    "home": "Bosh sahifa"
+  },
+  "stages": {
+    "s1_name": "Kirish",
+    "s1_time": "3 daq",
+    "s2_name": "Davomat",
+    "s2_time": "2 daq",
+    "s3_name": "Takrorlash",
+    "s3_time": "6 daq",
+    "s4_name": "Yangi mavzu",
+    "s4_time": "10 daq",
+    "s5_name": "Mashq & O'yin",
+    "s5_time": "12 daq",
+    "s6_name": "Test",
+    "s6_time": "7 daq",
+    "s7_name": "Baholash & Vazifa",
+    "s7_time": "5 daq"
+  },
+  "terms": {
+    "equation": "Tenglama",
+    "unknown": "Noma'lum son (x)",
+    "sum": "Yig'indi",
+    "difference": "Ayirma",
+    "addend": "Qo'shiluvchi",
+    "minuend": "Kamayuvchi",
+    "subtrahend": "Ayriluvchi",
+    "check": "Tekshirish"
+  },
+  "levels": {
+    "maysa": "Maysa",
+    "nihol": "Nihol",
+    "daraxt": "Daraxt",
+    "maysaDesc": "Qo'llab-quvvatlash (20 ichida, vizual)",
+    "niholDesc": "Asosiy daraja (100 ichida, 3 tur)",
+    "daraxtDesc": "Chuqurlashtirilgan (masalalar & mantiq)"
+  },
+  "actions": {
+    "next": "Keyingi",
+    "prev": "Ortga",
+    "hint": "Maslahat",
+    "speak": "O'qib ber",
+    "checkAnswer": "Tekshirish",
+    "tryAgain": "Qaytadan urinish",
+    "finish": "Yakunlash",
+    "restart": "Qayta boshlash",
+    "boardMode": "Doska rejimi",
+    "exitBoardMode": "Doskadan chiqish",
+    "print": "Chop etish",
+    "copy": "Nusxa olish",
+    "copied": "Nusxalandi!",
+    "teacherMode": "O'qituvchi",
+    "unlock": "Ochish",
+    "close": "Yopish"
+  },
+  "feedback": {
+    "correct": "Barakalla! To'g'ri topding! 🌟",
+    "encourage": "Yana bir bor urinib ko'ramizmi? Sen buni uddalaysan! 💪",
+    "checkSuccess": "Tenglik to'g'ri chiqdi! Qoyil! 🎉",
+    "earnedStar": "Yangi yulduz qo'lga kiritildi! ⭐",
+    "promoteToTree": "Ajoyib ketyapsan! Daraxt darajasiga o'tamizmi? 🌳",
+    "offerMaysa": "Biroz qiyin bo'ldimi? Maysa yordamchisini yoqamizmi? 🌱"
+  },
+  "character": {
+    "name": "Tarozi-Tolik",
+    "boxName": "Noma'lum Qutichasi"
+  },
+  "a11y": {
+    "title": "Qulaylik sozlamalari",
+    "fontSize": "Shrift o'lchami",
+    "dyslexia": "Disleksiya shrifti",
+    "autoSpeech": "Avtomatik ovoz",
+    "soundFx": "Ovoz effektlari",
+    "reducedMotion": "Harakatni kamaytirish",
+    "highContrast": "Yuqori kontrast",
+    "colorCodedNumbers": "Rangli raqamlar (o'nlik/birlik)",
+    "stepByStep": "Qadamma-qadam ko'rsatish",
+    "peerTutoring": "Juftlikda ishlash (Ustoz-do'st)"
+  },
+  "teacher": {
+    "title": "O'qituvchi boshqaruv paneli",
+    "enterPin": "O'qituvchi PIN kodini kiriting (sukut: 1234):",
+    "wrongPin": "PIN kod noto'g'ri. Qaytadan urinib ko'ring.",
+    "unlocked": "O'qituvchi rejimi faol",
+    "lessonPlan": "45 daqiqalik dars rejasi",
+    "methodologyNotes": "Metodik tavsiyalar & tipik xatolar",
+    "classResults": "Sinf natijalari tahlili",
+    "resetData": "Barcha ma'lumotlarni tozalash",
+    "resetConfirm": "Barcha o'quvchi natijalari tozalansinmi?",
+    "attendanceExport": "Davomat ro'yxati nusxalandi"
+  },
+  "privacy": "Ma'lumotlar faqat shu qurilma (brauzer) xotirasida saqlanadi. Shaxsiy ma'lumotlar tashqariga yuborilmaydi."
+}

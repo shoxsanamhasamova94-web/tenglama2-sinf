@@ -1,0 +1,146 @@
+/* CSS Custom Properties for 3 Themes: Light, Dark, Workly */
+:root, [data-theme="light"] {
+  --bg-primary: #fdfbf7;
+  --bg-secondary: #f4efe6;
+  --bg-surface: #ffffff;
+  --bg-card: #ffffff;
+  --border-color: rgba(226, 218, 203, 0.9);
+  --border-strong: #dcd3c4;
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
+  --text-muted: #94a3b8;
+  --accent-blue: #0284c7;
+  --accent-blue-bg: #e0f2fe;
+  --accent-yellow: #f59e0b;
+  --accent-yellow-bg: #fef3c7;
+  --accent-green: #10b981;
+  --accent-green-bg: #d1fae5;
+  --accent-purple: #8b5cf6;
+  --accent-purple-bg: #ede9fe;
+  --accent-coral: #f43f5e;
+  --accent-coral-bg: #ffe4e6;
+  --shadow-sm: 0 2px 8px rgba(30, 41, 59, 0.05);
+  --shadow-md: 0 6px 18px rgba(30, 41, 59, 0.08);
+  --shadow-lg: 0 14px 28px rgba(30, 41, 59, 0.1);
+  --font-base: 'Nunito', system-ui, -apple-system, sans-serif;
+  --font-display: 'Nunito', 'Baloo 2', system-ui, sans-serif;
+}
+
+[data-theme="dark"] {
+  --bg-primary: #12141f;
+  --bg-secondary: #1a1d2e;
+  --bg-surface: #1e2238;
+  --bg-card: #232742;
+  --border-color: rgba(255, 255, 255, 0.12);
+  --border-strong: rgba(255, 255, 255, 0.22);
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --accent-blue: #38bdf8;
+  --accent-blue-bg: rgba(56, 189, 248, 0.18);
+  --accent-yellow: #fbbf24;
+  --accent-yellow-bg: rgba(251, 191, 36, 0.18);
+  --accent-green: #34d399;
+  --accent-green-bg: rgba(52, 211, 153, 0.18);
+  --accent-purple: #a78bfa;
+  --accent-purple-bg: rgba(167, 139, 250, 0.18);
+  --accent-coral: #fb7185;
+  --accent-coral-bg: rgba(251, 113, 133, 0.18);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 6px 18px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 14px 28px rgba(0, 0, 0, 0.6);
+  --font-base: 'Nunito', system-ui, -apple-system, sans-serif;
+  --font-display: 'Nunito', 'Baloo 2', system-ui, sans-serif;
+}
+
+[data-theme="workly"] {
+  --bg-primary: #f6f1e7;
+  --bg-secondary: #eee7da;
+  --bg-surface: #faf7f2;
+  --bg-card: #ffffff;
+  --border-color: #dcd4c6;
+  --border-strong: #c8bead;
+  --text-primary: #2d3329;
+  --text-secondary: #576150;
+  --text-muted: #7f8a77;
+  --accent-blue: #3d6b7e;
+  --accent-blue-bg: #e2ecf0;
+  --accent-yellow: #9b722d;
+  --accent-yellow-bg: #f5eedb;
+  --accent-green: #447a4f;
+  --accent-green-bg: #e3ede5;
+  --accent-purple: #6c5a85;
+  --accent-purple-bg: #ede8f4;
+  --accent-coral: #964e56;
+  --accent-coral-bg: #f5e7e8;
+  --shadow-sm: 0 1px 3px rgba(45, 51, 41, 0.04);
+  --shadow-md: 0 3px 8px rgba(45, 51, 41, 0.06);
+  --shadow-lg: 0 6px 14px rgba(45, 51, 41, 0.08);
+  --font-base: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-display: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+/* Accessibility Modes */
+body.font-size-large {
+  font-size: 1.15rem;
+}
+body.font-size-xlarge {
+  font-size: 1.3rem;
+}
+
+body.dyslexia-font {
+  font-family: 'Comic Sans MS', 'Trebuchet MS', 'Baloo 2', sans-serif !important;
+  letter-spacing: 0.075em !important;
+  word-spacing: 0.15em !important;
+  line-height: 1.8 !important;
+}
+
+body.high-contrast {
+  --text-primary: #000000 !important;
+  --text-secondary: #111111 !important;
+  --border-color: #000000 !important;
+  --border-strong: #000000 !important;
+}
+
+[data-theme="dark"] body.high-contrast {
+  --text-primary: #ffffff !important;
+  --text-secondary: #eeeeee !important;
+  --border-color: #ffffff !important;
+  --border-strong: #ffffff !important;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+body.reduced-motion *, body.reduced-motion ::before, body.reduced-motion ::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+}
+
+/* Smartboard scaling */
+@media (min-width: 1920px) {
+  html {
+    font-size: 19px;
+  }
+}
+
+/* Print Stylesheet for Certificate & Homework */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}

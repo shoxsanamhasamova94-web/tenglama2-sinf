@@ -1,0 +1,6 @@
+{
+  "name": "Tenglamalar - 2-sinf Matematika Darsi",
+  "description": "2-sinf o'quvchilari uchun 'Tenglamalar' mavzusida qiziqarli, interaktiv, ovozli va o'yinli dars platformasi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

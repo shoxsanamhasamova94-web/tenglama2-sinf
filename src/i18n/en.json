@@ -1,0 +1,106 @@
+{
+  "app": {
+    "title": "Equations",
+    "subtitle": "Grade 2 Math Lesson",
+    "heroKicker": "Interactive lesson for young mathematicians"
+  },
+  "nav": {
+    "intro": "1. Intro",
+    "attendance": "2. Attendance",
+    "review": "3. Review",
+    "newTopic": "4. New Topic",
+    "practice": "5. Games & Practice",
+    "quiz": "6. Quiz",
+    "assessment": "7. Evaluation",
+    "home": "Home"
+  },
+  "stages": {
+    "s1_name": "Intro",
+    "s1_time": "3 min",
+    "s2_name": "Attendance",
+    "s2_time": "2 min",
+    "s3_name": "Review",
+    "s3_time": "6 min",
+    "s4_name": "New Topic",
+    "s4_time": "10 min",
+    "s5_name": "Games & Practice",
+    "s5_time": "12 min",
+    "s6_name": "Quiz",
+    "s6_time": "7 min",
+    "s7_name": "Evaluation & Homework",
+    "s7_time": "5 min"
+  },
+  "terms": {
+    "equation": "Equation",
+    "unknown": "Unknown (x)",
+    "sum": "Sum",
+    "difference": "Difference",
+    "addend": "Addend",
+    "minuend": "Minuend",
+    "subtrahend": "Subtrahend",
+    "check": "Check"
+  },
+  "levels": {
+    "maysa": "Sprout",
+    "nihol": "Sapling",
+    "daraxt": "Tree",
+    "maysaDesc": "Support (within 20, visual)",
+    "niholDesc": "Core Level (within 100, 3 types)",
+    "daraxtDesc": "Advanced (word problems & logic)"
+  },
+  "actions": {
+    "next": "Next",
+    "prev": "Back",
+    "hint": "Hint",
+    "speak": "Read Aloud",
+    "checkAnswer": "Check",
+    "tryAgain": "Try Again",
+    "finish": "Finish",
+    "restart": "Restart",
+    "boardMode": "Smartboard Mode",
+    "exitBoardMode": "Exit Board Mode",
+    "print": "Print",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "teacherMode": "Teacher",
+    "unlock": "Unlock",
+    "close": "Close"
+  },
+  "feedback": {
+    "correct": "Awesome job! You got it right! 🌟",
+    "encourage": "Let's try one more time? You can do it! 💪",
+    "checkSuccess": "Both sides balance perfectly! Great job! 🎉",
+    "earnedStar": "New star earned! ⭐",
+    "promoteToTree": "You are doing amazing! Want to try Tree level? 🌳",
+    "offerMaysa": "A little tricky? Let's turn on Sprout hints! 🌱"
+  },
+  "character": {
+    "name": "Scale-Tolik",
+    "boxName": "Mystery Box"
+  },
+  "a11y": {
+    "title": "Accessibility Options",
+    "fontSize": "Font Size",
+    "dyslexia": "Dyslexia Friendly Font",
+    "autoSpeech": "Auto Read-Aloud",
+    "soundFx": "Sound Effects",
+    "reducedMotion": "Reduce Animations",
+    "highContrast": "High Contrast",
+    "colorCodedNumbers": "Color-coded digits (tens/ones)",
+    "stepByStep": "Step-by-Step Mode",
+    "peerTutoring": "Peer Tutoring (Teacher-Friend)"
+  },
+  "teacher": {
+    "title": "Teacher Control Deck",
+    "enterPin": "Enter Teacher PIN (default: 1234):",
+    "wrongPin": "Incorrect PIN code. Please try again.",
+    "unlocked": "Teacher Mode Active",
+    "lessonPlan": "45-Minute Lesson Script",
+    "methodologyNotes": "Pedagogical Tips & Common Mistakes",
+    "classResults": "Class Performance Summary",
+    "resetData": "Reset All Stored Data",
+    "resetConfirm": "Clear all student progress and results?",
+    "attendanceExport": "Attendance list copied"
+  },
+  "privacy": "Data is stored strictly on this device (browser storage). No personal information is ever transmitted."
+}

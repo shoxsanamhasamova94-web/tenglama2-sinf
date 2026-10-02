@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import "./styles/theme.css";
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-base);
+  transition: background-color 0.25s ease, color 0.25s ease;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  touch-action: manipulation;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Color-coded numbers: tens blue, ones amber */
+.color-coded-num .num-tens {
+  color: #2563eb;
+  font-weight: 700;
+}
+.color-coded-num .num-ones {
+  color: #d97706;
+  font-weight: 700;
+}
+
+/* Touch drag utilities */
+.touch-none {
+  touch-action: none;
+}
+
+/* Smooth button presses */
+button, a {
+  -webkit-tap-highlight-color: transparent;
+}
